@@ -13,7 +13,8 @@ function setup() {
   let options = {
     inputs: ['x', 'y'],
     outputs: ['r', 'g', 'b'],
-    task: 'regression'
+    task: 'regression',
+    debug: true
   };
   model = ml5.neuralNetwork(options);
   colorInput = createColorPicker('green');
