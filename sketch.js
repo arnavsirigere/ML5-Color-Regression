@@ -44,7 +44,7 @@ function keyPressed() {
   if (key == 't') {
     ele.html('Training...');
     model.normalizeData();
-    model.train({ epochs: 100 }, finishedTraining);
+    model.train({ epochs: 50 }, finishedTraining);
   }
 }
 
